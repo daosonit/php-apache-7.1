@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  apachelocal: 
+    image: daolamsoncntt/apache:7.1
+    container_name: apachelocal
+    restart: always
+    ports:
+      - 8085:80
+    volumes:
+      - /home/xxxx/xxxx:/var/www/html/:rw
