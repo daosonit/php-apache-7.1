@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER romeOz <serggalka@gmail.com>
+MAINTAINER Havaz <havaz@gmail.com>
 
 ENV OS_LOCALE="en_US.UTF-8"
 RUN apt-get update && apt-get install -y locales && locale-gen ${OS_LOCALE}
